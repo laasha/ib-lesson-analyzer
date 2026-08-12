@@ -8,3 +8,9 @@ coverage/
 !.env.example
 
 .vercel
+
+# Environment variables & secrets
+.env*.local
+.env.local
+.env.pulled*
+.env.vercel*
