@@ -1,20 +1,42 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://ai.google.dev/static/site-assets/images/share-ais-513315318.png" />
-</div>
+# Ib Lesson Analyzer
 
-# Run and deploy your AI Studio app
+> **Digital Project in APP Factory Ecosystem (`02_ai-edtech`)**
 
-This contains everything you need to run your app locally.
+ეს არის ib-lesson-analyzer პროექტი, რომელიც შედის APP Factory-ს ციფრულ ეკოსისტემაში.
 
-View your app in AI Studio: https://ai.studio/apps/30b001bc-f41f-4df4-a7a0-3efd7b4690b0
+---
 
-## Run Locally
+## 🛠️ ტექნოლოგიური სტეკი (Tech Stack)
 
-**Prerequisites:**  Node.js
+`React` `JavaScript/TypeScript` `Vercel`
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 🌐 Live Demo & Links
+
+- **Live Web App**: [https://ib-lesson-analyzer.vercel.app](https://ib-lesson-analyzer.vercel.app)
+- **Master Ecosystem Dashboard**: [APP Factory Portfolio](https://app-factory-portfolio.vercel.app)
+- **Local Path**: `D:\Projects\02_ai-edtech\ib-lesson-analyzer`
+
+---
+
+## ⚡ გაშვების ინსტრუქცია (Run Locally)
+
+1. დააინსტალირეთ დამოკიდებულებები:
+   ```bash
+   npm install
+   ```
+
+2. გააშვით ლოკალური დეველოპმენტ სერვერი:
+   ```bash
+   npm run dev
+   ```
+
+3. პროექტის ბილდის შექმნა (Production Build):
+   ```bash
+   npm run build
+   ```
+
+---
+
+*Developed with ❤️ as part of APP Factory Ecosystem.*
